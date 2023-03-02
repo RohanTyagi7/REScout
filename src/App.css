@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+main {
+  text-align: center;
+  vertical-align: center;
+}
+*{
+  transition: 0.4s;
+}
+h1{
+  font-family: 'Open Sans', sans-serif;
+  color: #4CAF50;
+}
+button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+button:hover{
+  background-color: #3C9F40;
+}
+input{
+  background-color: grey;
+  border: white solid 0px;
+  padding: 7px;
+  margin: 20px;
+  color: #4CAF50;
+  border-radius: 3px;
+}
+input:focus{
+  outline-color: #4CAF50;
+  background-color: white;
+}
+::placeholder {
+  color: white;
+  opacity: 0.5; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: white;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 10.6vw 10.6vw 10.6vw 10.6vw 10.6vw 10.6vw 10.6vw 10.6vw 10.6vw;
+}
+.grid-item {
+  font-size: 20px;
+  text-align: center;
+  height: 29vh;
+  vertical-align: center;
+  border-radius: 10px;
+  border: grey solid 4px;
+  display: flex;
+  align-items: center;
+}
+.grid-item:active{
+  background-color: #4CAF50;
+}
+div{
+  transition: 0.4s;
+}
+@media all and (orientation:portrait) {
+  #team{
+    color: #005B96;
+  }
+  #smatch{
+    display: none;
+  }
+}
+Link:active{
+  backgroundColor: transparent;
+}

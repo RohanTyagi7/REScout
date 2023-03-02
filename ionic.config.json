@@ -1,0 +1,7 @@
+{
+  "name": "REScout",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
